@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Brisia-Icons';
+  src:  url('fonts/Brisia-Icons.eot?dv8ebu');
+  src:  url('fonts/Brisia-Icons.eot?dv8ebu#iefix') format('embedded-opentype'),
+    url('fonts/Brisia-Icons.ttf?dv8ebu') format('truetype'),
+    url('fonts/Brisia-Icons.woff?dv8ebu') format('woff'),
+    url('fonts/Brisia-Icons.svg?dv8ebu#Brisia-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Brisia-Icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-location:before {
+  content: "\e947";
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-play3:before {
+  content: "\ea1c";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}

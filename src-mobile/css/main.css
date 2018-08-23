@@ -1,0 +1,150 @@
+.appBoton {
+  margin-left: 20px;
+}
+/* imagen del menu*/
+#labCar{
+  margin-right: 200px;
+}
+.primera-caja {
+  background-image: url('../assets/images/taxi-corto.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 380px;
+}
+.caja-primera {
+  height: 250px;
+}
+.texto-primera-caja {
+  background-color: #F7B617;
+  height: 120px;
+  float: right;
+  margin-right: 0px;
+  margin-top: 60px;
+  width: 250px;
+}
+.titulo-div {
+  color: #ffffff;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.segunda-caja, .cuarta-caja{
+  background-color: #F7B617;
+  width: 380px;
+}
+.borde{
+  border: 1px solid #ffffff;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.titulo-img {
+  color: #ffffff;
+  margin-top: 15px;
+  margin-left: 130px;
+}
+.imagen-centrada{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#sectionPhone {
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+.tercera-caja {
+  background-image: url('../assets/images/conduce.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 380px;
+}
+.caja-tercera {
+  width: 300px;
+  height: 250px;
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 70px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+img {
+  opacity: 0.8;
+}
+.boton-conductor {
+  background-color: #F7B617 !important;
+  border-color: #F7B617 !important;
+}
+.cuarta-caja {
+color: #ffffff;
+height: 600px;
+}
+.texto-cuarta-caja{
+  margin-top: 20px;
+}
+.icon-location, .icon-compass {
+  color: #ffffff;
+}
+.span-fondo{
+  background-color: #F7B617;
+  border-color: #F7B617;
+}
+::placeholder {
+  font-size: 13px !important;
+  color: #ffffff !important;
+  opacity: .8 !important;
+}
+.inputs-de{
+  background-color: #F7B617;
+  border-color: #ffffff;
+  border-radius: 3px;
+}
+.boton-ruta {
+  margin-left: 120px;
+  margin-top: 20px;
+}
+.mapa-de-ruta{
+  width: 300px;
+  height: 300px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ffffff;
+}
+.borde-mapa {
+  width: 280px;
+  height: 280px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.iconos {
+  font-size: 15px;
+}
+#endPage {
+  background-color: #2B2B2B;
+  color: #ffffff;
+  font-size: 18px;
+  width: 380px;
+  height: 540px;
+}
+.caja-quinta{
+  font-size: 14px;
+}
+#storeImages {
+  margin-top: 60px;
+}
+.linea{
+background-color: #ffffff;
+}
+.texto-final{
+  font-size: 12px;
+}
+
