@@ -10,8 +10,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 400px;
-}
+  }
 .caja-primera {
   height: 250px;
 }
@@ -31,8 +30,7 @@
 }
 .segunda-caja, .cuarta-caja{
   background-color: #F7B617;
-  width: 400px;
-}
+  }
 .borde{
   border: 1px solid #ffffff;
   margin-top: 30px;
@@ -62,8 +60,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 400px;
-}
+  }
 .caja-tercera {
   width: 300px;
   height: 250px;
@@ -132,8 +129,7 @@ height: 600px;
   background-color: #2B2B2B;
   color: #ffffff;
   font-size: 18px;
-  width: 400px;
-  height: 540px;
+    height: 540px;
 }
 .caja-quinta{
   font-size: 14px;
