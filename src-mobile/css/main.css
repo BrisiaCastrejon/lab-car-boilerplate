@@ -41,7 +41,7 @@
 .titulo-img {
   color: #ffffff;
   margin-top: 15px;
-  margin-left: 130px;
+  text-align: center;
 }
 .imagen-centrada{
   display: block;
@@ -79,10 +79,11 @@ img {
 }
 .cuarta-caja {
 color: #ffffff;
-height: 600px;
+/* en article no se usan anchos ni altos se dejan */
+/* height: 600px; */
 }
 .texto-cuarta-caja{
-  margin-top: 20px;
+  margin: 90px 6% 0;
 }
 .icon-location, .icon-compass {
   color: #ffffff;
@@ -102,25 +103,26 @@ height: 600px;
   border-radius: 3px;
 }
 .boton-ruta {
-  margin-left: 120px;
-  margin-top: 20px;
+ text-align: center;
 }
+/* preferentemente no usar heigth */
 .mapa-de-ruta{
   width: 300px;
-  height: 300px;
   margin-top: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid #ffffff;
+  padding: 20px;
+
 }
 .borde-mapa {
-  width: 280px;
+  /* width: 280px;
   height: 280px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto; */
 }
 .iconos {
   font-size: 15px;
@@ -130,6 +132,9 @@ height: 600px;
   color: #ffffff;
   font-size: 18px;
     height: 540px;
+}
+.imagen-borde {
+  padding-top: 15px;
 }
 .caja-quinta{
   font-size: 14px;
@@ -144,3 +149,33 @@ background-color: #ffffff;
   font-size: 12px;
 }
 
+
+/* estilos para el logo
+
+wid 95
+margin lef 20
+vertical alig 
+*/
+
+@media (min-Width: 576px) {
+  .container {
+    max-width: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .mapa-de-ruta{
+    width: 655px;
+  }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
